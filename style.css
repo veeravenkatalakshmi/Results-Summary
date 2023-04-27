@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.parent{
+    background-color:hsl(0, 0%, 100%);
+    height:100vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    /* display:flex;
+    flex-direction: column; */
+}
+.box{
+    background-color:hsl(0, 0%, 100%);
+    height:50vh;
+    width:36vw;
+    box-shadow: 10px 10px 10px rgb(0,0,0,0.15);
+    border-radius: 1rem;
+     display: flex;
+
+   
+}
+.left{
+    background:linear-gradient(to top , hsl(241, 81%, 54%),hsl(252, 100%, 67%))  ;
+    height:50vh;
+    width:18vw;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.head{
+    font-size: 16px;
+    color: hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.sec1{
+    font-size:50px;
+    font-weight:bold;
+    color:hsl(0, 0%, 100%);
+    border-radius: 50%;
+    background:linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)) ;
+    height: 150px;
+    width  : 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec1 p{
+    font-size: 10px;
+    color: rgb(199, 184, 243);
+}
+.sec2{
+    font-size:20px;
+    color:hsl(221, 100%, 96%);
+
+}
+.footer{
+    font-size:15px;
+    color:rgb(199, 184, 243);
+    width:13vw;
+    text-align: center;
+}
+.right{
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.border{
+      display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+     height: 40px; 
+    padding: 5px 10px;
+    width:13vw;
+}
+.top{
+    font-size: 19px;
+    }
+.rea{
+    color:hwb(0 23% 6% / 0.874) ;
+    background-color:hsl(0, 82%, 98%);
+    
+}    
+.mem{
+   
+    background-color:hsl(53, 89%, 96%);
+    color: hsl(39, 100%, 56%) ;
+}
+.ver{
+    
+    background-color:hsl(115, 68%, 96%);
+    color:hsl(166, 100%, 37%);
+}
+.vis{
+  
+    background-color:hsl(245, 100%, 98%);
+    color:hsl(234, 85%, 45%);
+}
+.con{
+    font-size:15px;
+    color:hsl(223, 37%, 93%);
+    background-color:black ;
+    border-radius: 30px;
+    height:4vh;
+    width:13vw;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    padding-top: 10px;
+
+    
+
+}
